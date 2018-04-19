@@ -4,7 +4,11 @@
 * 2018年04月13日10:52:05
 * 交接文档一直拖拖拖还没写2333
 * 想赶紧到新部门
-
+2018年04月16日21:32:19
+* 今天算是正式入职新部门了, 签证还没下来, 期待巴西
+2018年04月19日11:02:10
+* 本周入职巴西,签证已出,react6的飞起,生活总会越来越好
+* 最近研究vscode的vim模式,用键盘敲代码真心不想碰鼠标了
 
 
 # 支付宝项目填坑
@@ -30,4 +34,8 @@ number.toLocaleString('en-US')
 左侧 
 Number(a.toFixed(2).split('.')[0]).toLocaleString()
 右侧 
-a.toFixed(2).split('.')[0]
+a.toFixed(2).split('.')[1]
+
+## 插件
+Vscode 查看git提交者及提交内容插件 Gitlens
+Vim    开启vscode vim模式 双ESC开启,鼠标退出normal
