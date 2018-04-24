@@ -36,6 +36,14 @@ Number(a.toFixed(2).split('.')[0]).toLocaleString()
 右侧 
 a.toFixed(2).split('.')[1]
 
-## 插件
+# 微信小程序项目填坑
+关于sddk 分享 微信浏览器调用相机等,与支付宝类似需要前后端配置微信token进行校验,所有功能需要提前注册.
+注意域名配置不要带协议.
+传递URL只需要传递#字前面的.
+顺便微信照相调接口神烦
+
+# IDE插件类
 Vscode 查看git提交者及提交内容插件 Gitlens
 Vim    开启vscode vim模式 双ESC开启,鼠标退出normal
+
+EMACS 了解一下?
