@@ -36,6 +36,9 @@ Number(a.toFixed(2).split('.')[0]).toLocaleString()
 右侧 
 a.toFixed(2).split('.')[1]
 
+货币单位巴西转法
+a.toLocaleString('PT-br', {style: 'currency', currency: 'BRL'})
+
 # 微信小程序项目填坑
 关于sddk 分享 微信浏览器调用相机等,与支付宝类似需要前后端配置微信token进行校验,所有功能需要提前注册.
 注意域名配置不要带协议.
