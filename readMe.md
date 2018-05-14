@@ -50,3 +50,12 @@ Vscode 查看git提交者及提交内容插件 Gitlens
 Vim    开启vscode vim模式 双ESC开启,鼠标退出normal
 
 EMACS 了解一下?
+
+
+# Utils
+js复制文本
+let text = document.getElementById('copyText').innerText
+        let input = document.getElementById('copyInput')
+        input.value = text
+        input.select()
+        document.execCommand('copy')
