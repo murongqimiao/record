@@ -9,6 +9,8 @@
 2018年04月19日11:02:10
 * 本周入职巴西,签证已出,react6的飞起,生活总会越来越好
 * 最近研究vscode的vim模式,用键盘敲代码真心不想碰鼠标了
+2018年05月16日17:18:39
+* 23号国内上线, 5个产品都飞走了,羡慕...可怜我们研发狗通宵上线飞不动.
 
 
 # 支付宝项目填坑
@@ -48,6 +50,8 @@ a.toLocaleString('PT-br', {style: 'currency', currency: 'BRL'})
 # IDE插件类
 Vscode 查看git提交者及提交内容插件 Gitlens
 Vim    开启vscode vim模式 双ESC开启,鼠标退出normal
+
+对了  有个小tips  vscode最爽的地方是可以通过安装shell脚本直接在iterm里通过指令打开vs的, 直接command + p 输入 > 添加指令吧!
 
 EMACS 了解一下?
 
