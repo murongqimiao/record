@@ -63,3 +63,25 @@ let text = document.getElementById('copyText').innerText
         input.value = text
         input.select()
         document.execCommand('copy')
+
+# React 管道(过滤器)
+
+表单一个值  input一个值
+
+    `const inputValue = !!this.props.format
+      ? format[this.props.format](value, value.length)
+      : value`
+    
+    格式化处理表单数据 onchage的时候反编译
+
+    ` factory = evt => {
+        // 格式化工厂
+        let data = format[this.props.format](
+        evt.target.value,
+        evt.target.value.length,
+        true
+        )
+        this.props.onChange(data)
+    }`    
+
+    实现输入数据格式化展示
